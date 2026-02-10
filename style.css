@@ -1,0 +1,37 @@
+.movement1{
+    position: relative;
+    top: 400px;
+    left: 300px;
+    
+}
+
+.movement2{
+     position: relative;
+    top: 380px;
+    left: 400px;
+
+}
+
+.movement3{
+      position: relative;
+    top: 359px;
+    left: 490px;
+
+}
+
+.movement4{
+    position: relative;
+     top: 338px;
+    left: 555px;
+
+}
+
+.colour1{
+    border: solid red;
+    background-color: red;
+    color: azure;
+    width: 100px;
+    position: relative;
+    top: 200px;
+    left: 350px;
+}
