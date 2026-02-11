@@ -26,3 +26,17 @@ function savecolour() {
     alert("coloursaved")
 
 }
+
+function loadcounter(){
+    let savedvalue = localStorage.getItem("savecolour");
+
+    if (savedvalue !== 0) {
+        colour = parseInt(savedvalue);
+        updatecolour();
+        alert("colour loaded");
+        
+    } else {
+        alert("no value found");
+    }
+
+}

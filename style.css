@@ -107,6 +107,17 @@ button:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
+
+.movement5 button {
+    background-color: #17a2b8; /* Blue color */
+    color: white;
+}
+
+.movement5 button:hover {
+    background-color: #138496; /* Darker blue on hover */
+}
+
+
 /* Add responsive design */
 @media screen and (max-width: 400px) {
     .colour1 {
